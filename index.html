@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIMPLE TODOMVC by HectorCardoso</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="row">
+  <br/>
+  <div class="col-xs-5">
+    <input id="myInput" class="form-control" placeholder="Insira um tarefa" />
+  </div>
+  <div class="col-xs-6">
+    <input id="searchTodo" class="form-control" placeholder="Pesquise por tarefas" />
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col-md-4">
+    <button id="clean_complited" class="btn btn-primary">Limpar Completados
+      <label id="counter_clean_complited"></label>
+    </button>
+    <button id="complited" class="btn btn-primary">Completadas
+      <label id="counter_complited"></label>
+    </button>
+    <button id="see_all" class="btn btn-primary">Ver todos
+      <label id="counter_see_all"></label>
+    </button>
+    <button id="actived" class="btn btn-primary">Ativos
+      <label id="counter_actived"></label>
+    </button>
+  </div>
+</div>
+<br/>
+<br/>
+<ul id="todoList" class="list-group list-unstyled"></ul>
+
+
+</body>
+</html>
